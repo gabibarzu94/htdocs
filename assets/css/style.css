@@ -9,18 +9,9 @@ h4,
 h5,
 h6,
 h7 {
-    color: white !important;
     cursor: default;
-}
+    color: black !important;
 
-h1 {
-    font-size: 5em;
-    color: #fff;
-    margin: 0;
-}
-
-.intro p {
-    color: #fff;
 }
 
 .section {
