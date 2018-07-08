@@ -24,7 +24,7 @@ h1 {
     text-align: center;
 }
 
-#section0 {
+#section1 {
     background-image: url(../images/bg1.png);
     height: 100%;
     background-position: center;
@@ -32,7 +32,7 @@ h1 {
     background-size: cover;
 }
 
-#section1 {
+#section2 {
     background-image: url(../images/bg2.png);
     height: 100%;
     background-position: center;
@@ -40,7 +40,7 @@ h1 {
     background-size: cover;
 }
 
-#section2 {
+#section3 {
     background-image: url(../images/bg3.png);
     height: 100%;
     background-position: center;
@@ -48,7 +48,7 @@ h1 {
     background-size: cover;
 }
 
-#section3 {
+#section4 {
     background-image: url(../images/bg4.png);
     height: 100%;
     background-position: center;
@@ -56,6 +56,22 @@ h1 {
     background-size: cover;
 }
 
-#section3 h1 {
-    color: #000;
+#section5 {
+    background-image: url(../images/bg5.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6 {
+    background-image: url(../images/bg6.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-semicolor {
+    background-color: rgba(34, 34, 34, 0.5) !important;
 }
