@@ -56,3 +56,9 @@ window.onload = function () {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+$(document).ready(function () {
+    $(".navbar-nav li a").click(function (event) {
+        $(".navbar-collapse").collapse('hide');
+    });
+});

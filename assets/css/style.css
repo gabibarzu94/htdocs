@@ -10,8 +10,7 @@ h5,
 h6,
 h7 {
     cursor: default;
-    color: black;
-
+    color: #333;
 }
 
 .section {
@@ -68,6 +67,12 @@ h7 {
 
 .navbar-semicolor {
     background-color: rgba(34, 34, 34, 0.5) !important;
+}
+
+@-moz-document url-prefix() {
+    .nav.navbar-nav.navbar-right a {
+        font-weight: bold;
+    }
 }
 
 .nav.navbar-nav.navbar-right a:hover {
@@ -137,6 +142,10 @@ hr {
 
 .text-gray {
     color: #555;
+}
+
+.text-red {
+    color: #ef3e36;
 }
 
 .container-section2 {
