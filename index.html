@@ -124,26 +124,55 @@
                 <hr>
                 <br>
                 <div class="row">
-                    <div class="col-md-4 text-center">
-                        <h5 class="text-red">BRANDING</h5>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h5 class="text-red">WEBSITE</h5>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h5 class="text-red">DIGITAL MARKETING</h5>
+                    <div class="btn-group btn-group-lg" data-toggle="buttons">
+                        <label class="btn btn-danger btn-outline active" onclick="showPortofolio('branding')">
+                            <input type="radio">BRANDING
+                        </label>
+                        <label class="btn btn-danger btn-outline" onclick="showPortofolio('website')">
+                            <input type="radio">WEBSITE
+                        </label>
+                        <label class="btn btn-danger btn-outline" onclick="showPortofolio('marketing')">
+                            <input type="radio">MARKETING
+                        </label>
                     </div>
                 </div>
                 <br>
                 <div class="row text-center">
-                    <div class="col-md-4 text-center">
-                        <img src="http://fakeimg.pl/365x365/" class="img-responsive" style="padding: 10px; margin-left: auto; margin-right: auto; width: 190px">
+                    <div id="branding-option">
+                        <h3 class="col-md-12">Branding</h3>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <img src="http://fakeimg.pl/365x365/" class="img-responsive" style="padding: 10px; margin-left: auto; margin-right: auto; width: 190px">
+                    <div id="website-option">
+                        <h3 class="col-md-12">Website</h3>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <img src="http://fakeimg.pl/365x365/" class="img-responsive" style="padding: 10px; margin-left: auto; margin-right: auto; width: 190px">
+                    <div id="marketing-option">
+                        <h3 class="col-md-12">Marketing</h3>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,7 +208,7 @@
         navigation: true,
         navigationPosition: 'right',
         anchors: ['acasa', 'servicii', 'portofoliu', 'desprenoi', 'pachete', 'contact'],
-        responsiveWidth: 768
+        responsiveWidth: 769
     });
 
 </script>

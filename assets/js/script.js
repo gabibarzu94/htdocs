@@ -62,3 +62,22 @@ $(document).ready(function () {
         $(".navbar-collapse").collapse('hide');
     });
 });
+
+
+function showPortofolio(label) {
+    if (label == 'branding') {
+        $("#website-option").slideUp("slow");
+        $("#marketing-option").slideUp("slow");
+        $("#branding-option").slideDown("slow");
+    }
+    if (label == 'website') {
+        $("#branding-option").slideUp("slow");
+        $("#marketing-option").slideUp("slow");
+        $("#website-option").slideDown("slow");
+    }
+    if (label == 'marketing') {
+        $("#branding-option").slideUp("slow");
+        $("#website-option").slideUp("slow");
+        $("#marketing-option").slideDown("slow");
+    }
+}

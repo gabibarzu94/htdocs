@@ -111,6 +111,14 @@ h7 {
     }
 }
 
+/* doar pt tablete */
+
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+    .img-proiect {
+        width: 50% !important;
+    }
+}
+
 .object {
     animation: MoveUpDown 2s linear infinite;
     position: absolute;
@@ -154,4 +162,15 @@ hr {
 
 .servicii-logo {
     width: 150px;
+}
+
+.img-proiect {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#website-option, #marketing-option{
+    display: none;
 }
