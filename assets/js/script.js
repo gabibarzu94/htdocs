@@ -66,18 +66,23 @@ $(document).ready(function () {
 
 function showPortofolio(label) {
     if (label == 'branding') {
-        $("#website-option").slideUp("slow");
-        $("#marketing-option").slideUp("slow");
-        $("#branding-option").slideDown("slow");
+        $("#website-option").slideUp();
+        $("#marketing-option").slideUp();
+        $("#branding-option").slideDown();
     }
     if (label == 'website') {
-        $("#branding-option").slideUp("slow");
-        $("#marketing-option").slideUp("slow");
-        $("#website-option").slideDown("slow");
+        $("#branding-option").slideUp();
+        $("#marketing-option").slideUp();
+        $("#website-option").slideDown();
     }
     if (label == 'marketing') {
-        $("#branding-option").slideUp("slow");
-        $("#website-option").slideUp("slow");
-        $("#marketing-option").slideDown("slow");
+        $("#branding-option").slideUp();
+        $("#website-option").slideUp();
+        $("#marketing-option").slideDown();
     }
 }
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});

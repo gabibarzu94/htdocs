@@ -171,6 +171,28 @@ hr {
     width: 70%;
 }
 
-#website-option, #marketing-option{
+#website-option,
+#marketing-option {
     display: none;
+}
+
+.flip {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.flip img {
+    width: 250px;
+    height: auto;
+}
+
+.flip .back {
+    background: #ef3e36;
+    color: #fff;
+    text-align: center;
+}
+
+.back h3{
+    padding: 5px;
 }

@@ -124,7 +124,7 @@
                 <hr>
                 <br>
                 <div class="row">
-                    <div class="btn-group btn-group-lg" data-toggle="buttons">
+                    <div class="btn-group" data-toggle="buttons">
                         <label class="btn btn-danger btn-outline active" onclick="showPortofolio('branding')">
                             <input type="radio">BRANDING
                         </label>
@@ -141,37 +141,100 @@
                     <div id="branding-option">
                         <h3 class="col-md-12">Branding</h3>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id="website-option">
                         <h3 class="col-md-12">Website</h3>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id="marketing-option">
                         <h3 class="col-md-12">Marketing</h3>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-proiect">
+                            <div class="flip">
+                                <div class="front">
+                                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                                </div>
+                                <div class="back">
+                                    <h3>Some Text in the Back!</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,6 +264,9 @@
 
 <script type="text/javascript" src="./assets/js/fullpage.js"></script>
 <script type="text/javascript" src="./assets/js/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
