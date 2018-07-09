@@ -71,8 +71,7 @@ h7 {
 }
 
 .nav.navbar-nav.navbar-right a:hover {
-    color: #ff0000 !important;
-    font-weight: bold;
+    color: #ef3e36 !important;
 }
 
 @media only screen and (max-width: 480px) {
@@ -107,7 +106,7 @@ h7 {
     }
 }
 
-.typewrite{
-    color: #ff0000;
+.typewrite {
+    color: #ef3e36;
     font-weight: 700;
 }
