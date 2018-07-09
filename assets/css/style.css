@@ -76,10 +76,35 @@ h7 {
 }
 
 @media only screen and (max-width: 480px) {
-    .navbar{
+    .navbar {
         background: rgb(34, 34, 34) !important;
     }
     .navbar-semicolor {
-    background-color: rgb(34, 34, 34) !important;
+        background-color: rgb(34, 34, 34) !important;
     }
+}
+
+.object {
+    animation: MoveUpDown 2s linear infinite;
+    position: absolute;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 10px;
+    }
+    50% {
+        bottom: 40px;
+    }
+}
+
+.typewrite{
+    color: #ff0000;
+    font-weight: 700;
 }
