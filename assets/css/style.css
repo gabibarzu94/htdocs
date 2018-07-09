@@ -84,6 +84,9 @@ h7 {
     .object {
         display: none;
     }
+    .text-details {
+        display: none;
+    }
 }
 
 .object {
@@ -109,4 +112,16 @@ h7 {
 .typewrite {
     color: #ef3e36;
     font-weight: 700;
+}
+
+hr {
+    border: 1px solid #ef3e36;
+}
+
+.text-gray {
+    color: #555;
+}
+
+.container-section2 {
+    margin-top: 15%;
 }
