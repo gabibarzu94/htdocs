@@ -72,6 +72,7 @@ h7 {
 
 .nav.navbar-nav.navbar-right a:hover {
     color: #ef3e36 !important;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 480px) {
@@ -86,6 +87,22 @@ h7 {
     }
     .text-details {
         display: none;
+    }
+    .servicii-logo {
+        width: 100px;
+    }
+    .servicii-logo {
+        width: 100px !important;
+    }
+    .for-mobile {
+        display: none;
+    }
+    h4 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .container-section2 {
+        margin-top: 10%;
     }
 }
 
@@ -123,5 +140,9 @@ hr {
 }
 
 .container-section2 {
-    margin-top: 15%;
+    margin-top: 20%;
+}
+
+.servicii-logo {
+    width: 150px;
 }
