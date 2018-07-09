@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^assets$ / [R=301,L]
+RewriteRule ^assets/?$ / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
