@@ -67,21 +67,22 @@ $(document).ready(function () {
 function showPortofolio(label) {
     if (label == 'branding') {
         $("#website-option").slideUp();
-        $("#marketing-option").slideUp();
+        //$("#marketing-option").slideUp();
         $("#branding-option").slideDown();
     }
     if (label == 'website') {
         $("#branding-option").slideUp();
-        $("#marketing-option").slideUp();
+        //$("#marketing-option").slideUp();
         $("#website-option").slideDown();
     }
-    if (label == 'marketing') {
+    /*if (label == 'marketing') {
         $("#branding-option").slideUp();
         $("#website-option").slideUp();
         $("#marketing-option").slideDown();
-    }
+    }*/
 }
-$(function(){
+
+$(function () {
     $(".flip").flip({
         trigger: 'hover'
     });
